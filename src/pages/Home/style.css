@@ -1,0 +1,102 @@
+.container-home-page{
+    width: 70%;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.container-pokemons-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    box-sizing: border-box;
+    margin: 16px 0px;
+}
+.container-home-page h1{
+    font-size: 2rem;
+    color: var(--bulbasaur-azul);
+}
+
+.pokemon-filters{
+    cursor: pointer;
+    margin-right: 16px;
+}
+.container-options-filters{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px 30px 0px;
+}
+.container-pokemon-filters {
+    position: fixed;
+    width: 350px;
+    background-color: white;
+    height: 100vh;
+    top: 0;
+    left: -350px; 
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    transition: left 0.5s ease-in-out; 
+    overflow-y: auto;
+}
+
+.container-pokemon-filters.open {
+    left: 0; 
+}
+
+.container-pokemon-filters .buttons-order-filter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+
+.container-pokemon-filters .buttons-order-filter .container-buttons-order{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container-pokemon-filters .buttons-order-filter .container-buttons-order button{
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px 5px;
+    border-radius: 16px;
+}
+
+.container-pokemon-filters .buttons-order-filter .container-buttons-order button.selected{
+    background-color: var(--bulbasaur-azul);
+    color: white;
+}
+
+.container-pokemon-filters .button-reset-filter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+
+.container-pokemon-filters .button-reset-filter button {
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px 5px;
+    border-radius: 16px;
+    transition: transform 0.1s ease-in-out; 
+}
+
+/* Efecto de hundimiento al presionar */
+.container-pokemon-filters .button-reset-filter button:active {
+    transform: scale(0.95);
+}

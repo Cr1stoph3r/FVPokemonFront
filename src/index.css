@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #242424;
+  background-color: rgba(255, 255, 255, 1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --background-modal: rgba(0, 0, 0, 0.5);
+  --bulbasaur-verde: #49D0B080;
+  --bulbasaur-azul: #3399FF;
+
+  --pokemon-color-black: #00000090;
+  --pokemon-color-blue: #0000FF70;
+  --pokemon-color-brown: #A52A2A70;
+  --pokemon-color-gray: #80808070;
+  --pokemon-color-green: #00800070;
+  --pokemon-color-pink: #FFC0CB70;
+  --pokemon-color-purple: #80008070;
+  --pokemon-color-red: #FF000070;
+  --pokemon-color-white: #acacacb2;
+  --pokemon-color-yellow: #FFFF0070;
+
+  --pokemon-type-bug: #9CAD1C;
+  --pokemon-type-dark: #5A4A42;
+  --pokemon-type-dragon: #622FE6;
+  --pokemon-type-electric: #E3C324;
+  --pokemon-type-fairy: #E78FA4;
+  --pokemon-type-fighting: #AB2B25;
+  --pokemon-type-fire: #D97529;
+  --pokemon-type-flying: #8F7ED9;
+  --pokemon-type-ghost: #59457B;
+  --pokemon-type-grass: #6CB043;
+  --pokemon-type-ground: #C8A951;
+  --pokemon-type-ice: #8BB3B3;
+  --pokemon-type-normal: #999963;
+  --pokemon-type-poison: #872D87;
+  --pokemon-type-psychic: #E14870;
+  --pokemon-type-rock: #9C8733;
+  --pokemon-type-shadow: #302738;
+  --pokemon-type-steel: #8A8AA8;
+  --pokemon-type-stellar: #72A9D8;
+  --pokemon-type-unknown: #567F75;
+  --pokemon-type-water: #547BDA;
+}
+
+body{
+  margin: 0;
+}

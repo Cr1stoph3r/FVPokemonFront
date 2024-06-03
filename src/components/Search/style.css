@@ -1,0 +1,48 @@
+.div-main {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.input-search {
+    width: 100%;
+    border-radius: 100px;
+    background: rgba(242, 245, 255, 1);
+    height: 40px;
+    border: none;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.input-search:focus {
+    outline: none;
+    border: none;
+}
+
+.input-search::placeholder {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.input-search.view-type-1 {
+    padding-left: 24px;
+}
+
+.input-search.view-type-2 {
+    padding-left: 48px;
+}
+
+.search-icon-img {
+    position: absolute;
+    top: 8px;
+}
+
+.search-icon-img.view-type-1 {
+    right: 10px;
+}
+
+.search-icon-img.view-type-2 {
+    left: 14px;
+}

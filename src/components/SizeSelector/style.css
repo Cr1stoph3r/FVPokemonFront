@@ -1,0 +1,28 @@
+.div-size-selector {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .div-size-selector span {
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+  }
+  
+  .div-size-selector select {
+    width: 54px;
+    height: 34px;
+    border: 1px solid rgba(153, 153, 153, 1);
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .div-size-selector .span-1 {
+    margin-right: 8px;
+  }
+  
+  .div-size-selector .span-2 {
+    margin-left: 8px;
+  }
+  

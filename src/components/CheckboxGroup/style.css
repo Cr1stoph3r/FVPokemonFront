@@ -1,0 +1,60 @@
+.arrow-checkbox-group {
+    top: 20px;
+    right: 20px;
+    border: 2px solid rgba(102, 102, 102, 1);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+    transition: transform 0.4s;
+}
+
+.arrow-checkbox-group.up {
+    transform: rotate(-135deg);
+}
+
+.container-checkbox-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.container-checkbox-group .head-checkbox-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.checkbox-group input[type="checkbox"] {
+    accent-color: var(--pokemon-type-grass); /* Utiliza una variable apropiada según el tipo de Pokémon */
+  }
+  
+  .checkbox-group label {
+    margin-left: 8px;
+    user-select: none;
+    pointer-events: none; 
+  }
+  
+  .checkbox-group:hover {
+    background-color: var(--bulbasaur-verde);
+  }
+  
+  /* Transición suave para expandir o colapsar */
+  .body-checkbox-group {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    width: 85%;
+  }
+  
+  .body-checkbox-group.expanded {
+    max-height: 1000px;
+  }
+  
