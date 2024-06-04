@@ -33,7 +33,7 @@
 }
 
 .checkbox-group input[type="checkbox"] {
-    accent-color: var(--pokemon-type-grass); /* Utiliza una variable apropiada según el tipo de Pokémon */
+    accent-color: var(--pokemon-type-grass);
   }
   
   .checkbox-group label {

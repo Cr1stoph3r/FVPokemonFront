@@ -7,7 +7,7 @@ const FilterSelector = ({ filters = [], selectedFilter, onChange }) => {
 
     const handleFilterClick = (filterId) => {
         onChange(filterId);
-        setExpanded(false); // Cerrar la lista después de seleccionar un filtro
+        setExpanded(false); 
     };
 
     const toggleExpansion = () => {

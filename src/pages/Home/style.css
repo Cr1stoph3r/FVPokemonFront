@@ -96,7 +96,6 @@
     transition: transform 0.1s ease-in-out; 
 }
 
-/* Efecto de hundimiento al presionar */
 .container-pokemon-filters .button-reset-filter button:active {
     transform: scale(0.95);
 }

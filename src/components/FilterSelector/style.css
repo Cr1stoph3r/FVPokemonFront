@@ -1,4 +1,3 @@
-/* FilterSelector ajustado para parecerse a CheckboxGroup */
 .container-filter-selector {
     width: 100%;
     display: flex;
@@ -28,7 +27,7 @@
     display: inline-block;
     padding: 5px;
     transform: rotate(45deg);
-    transition: transform 0.4s; /* Tiempo de transición ajustado como en CheckboxGroup */
+    transition: transform 0.4s; 
 }
 
 .arrow-filter-selector.up {
@@ -39,17 +38,17 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
-    width: 85%; /* Ajuste para alineación con CheckboxGroup */
+    width: 85%; 
 }
 
 .body-filter-selector.expanded {
-    max-height: 1000px; /* Ajuste según la altura máxima necesaria */
+    max-height: 1000px; 
 }
 
 .filter-item.selected {
-    font-weight: bold; /* Resaltar el filtro seleccionado */
+    font-weight: bold; 
 }
 
 .container-filter-selector .body-filter-selector .filter-item:hover{
-    background-color: var(--bulbasaur-verde); /* Cambio de color al pasar el mouse */
+    background-color: var(--bulbasaur-verde); 
 }

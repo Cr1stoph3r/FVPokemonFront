@@ -29,7 +29,7 @@
                                 id={`checkbox-${filter.id}`}
                                 value={filter.id}
                                 checked={selectedFilters.includes(filter.id)}
-                                readOnly // Hacemos el input de solo lectura ya que el cambio de estado es manejado por el div
+                                readOnly
                             />
                             <label htmlFor={`checkbox-${filter.id}`}>{filter.name}</label>
                         </div>
