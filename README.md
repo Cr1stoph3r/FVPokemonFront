@@ -18,7 +18,7 @@ npm i
 
 ## Paso 2: Cambiar credenciales .env
 
-- al archivo .env.example, remover ".exammple" y de ser necesario modificar por la url de la api
+- al archivo .env.example, remover ".example" y de ser necesario modificar por la url de la api
 
 ## Paso 3: Descargamos repositorio de back e iniciamos server:
 
