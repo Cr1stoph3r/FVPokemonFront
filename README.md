@@ -1,8 +1,31 @@
-# React + Vite
+# Dependencias
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Node: 18.20.2
+- npm: 10.7.0
+- React: 18.2.0
+- TanstackQuery: 5.40.0
 
-Currently, two official plugins are available:
+# Pasos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Paso 1: instalacion
+
+- Clonar el repositorio localmente.
+- Instalar dependencias
+
+```sh
+npm i
+```
+
+## Paso 2: Cambiar credenciales .env
+
+- al archivo .env.example, remover ".exammple" y de ser necesario modificar por la url de la api
+
+## Paso 3: Descargamos repositorio de back e iniciamos server:
+
+[Repositorio en GitHub](https://github.com/Cr1stoph3r/FVPokemonBack)
+
+## Paso 4: Ejecutar app front una vez levantada la api
+
+```sh
+npm run dev
+```
